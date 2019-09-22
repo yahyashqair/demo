@@ -11,17 +11,17 @@
 }
   ],
   "hospital": [
-    { "email":"u1@hospital.com","passowrd":"u1","id": 1, "name": "hospial 1 ", "address": "Rammallah","phoneNumber":"0595259449"},
+    { "email":"u1@hospital.com","passowrd":"u1","id": 1, "name": "hospial 1 ", "address": "Rammallah","phoneNumber":"0595259449"}
   ],
   "requests":[
     {  "id": 1,
   "msg": "string",
   "bloodType": "O1",
-  "value": "2 units",
+  "value": "2 units"
 },   {  "id": 2,
   "msg": "string2",
   "bloodType": "AB",
-  "value": "12 units",
+  "value": "12 units"
 }
   ]
 }
