@@ -1,14 +1,30 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "donaters": [
+    { "email":"u1@donater.com","passowrd":"u1","id": 1, "name": "Ahmad ali","DOB": "26/11/1998","gender":"male","address":"salfit","IDnumber":"454512145",
+    ,"countOfDonations":"4",
+  "leastDonationTime":"22/5/2019"
+},
+{"email":"u2@donater.com","passowrd":"u2", "id": 2, "name": "Yahya Shqair","DOB": "26/11/1998","gender":"male","address":"ramallah","IDnumber":"454555555",
+    ,"countOfDonations":"1",
+  "leastDonationTime":"22/9/2019"
+},
+{ "email":"u3@donater.com","passowrd":"u3","id": 3, "name": "Majd","DOB": "26/5/1998","gender":"male","address":"nables","IDnumber":"555552145",
+    ,"countOfDonations":"0",
+  "leastDonationTime":"0/0/0"
+}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "hospital": [
+    { "email":"u1@hospital.com","passowrd":"u1","id": 1, "name": "hospial 1 ", "address": "Rammallah","phoneNumber":"0595259449"},
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "requests":[
+    {  "id": 1;
+  "msg": "string";
+  "bloodType": "O1";
+  "value": "2 units";
+},   {  "id": 2;
+  "msg": "string2";
+  "bloodType": "AB";
+  "value": "12 units";
+}
+  ]
 }
